@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Flight Expert</title>
+  <link rel="shortcut icon" href="./img/round-trip-flight.jpeg" type="image/x-icon">
+</head>
+<body>
+    <!-- Nav Bar Create Start -->
+  <header class="header_container">
+    <nav class="nav_container">
+         <h1>DPL</h1>
+        <div class="nav_bar">
+        <li>Dashboard</li>
+        <li>Master Price</li>
+        <li>Custom Price</li>
+        <li>Calendar</li>
+        <li>Reports</li>
+        </div>
+<div class="nav_right">
+     <li><i class="fa-solid fa-bell"></i></li>
+    <li><i class="fa-solid fa-user"></i></li>
+</div>
+    </nav>
+    <!-- Nav Bar END -->
+    <h1>Master Price</h1>
+    <hr>
+    <div class="select_option"> 
+     <a href="#">Round Trip</a>
+    <a href="#">One Way</a>
+    <a href="#">Multi City</a>
+    </div>
+  </header>
+  <hr class="mt-7 w-9/12 ml-36 ">
+  <!-- Main Section Start -->
+  <main>
+    <div class="main_container">
+        <select class="day">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="vw">VW</option>
+            <option value="audi" selected>From</option>
+          </select>
+          <select class="day">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="vw">VW</option>
+              <option value="audi" selected>To</option>
+            </select>
+            <input class="day" type="date" >
+            <select class="day">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="vw">VW</option>
+              <option value="audi" selected>Day-</option>
+            </select>
+            <select class="day">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="vw">VW</option>
+                <option value="audi" selected>Day+</option>
+              </select>
+            <select class="day">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="vw">VW</option>
+                <option value="audi" selected>Any Time </option>
+              </select>
+              <h1>+</h1>
+              <select  class="day">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="vw">VW</option>
+                  <option value="audi" selected>ADT </option>
+                </select>
+                <select  class="day">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="vw">VW</option>
+                  <option value="audi" selected>1</option>
+                </select>
+                <h1>+</h1>
+    </div>
+    <hr class="mt-4 w-9/12 ml-36 ">
+
+    <div class="Extra_Option">
+        <div>
+            <input type="checkbox">
+        <label for="">Extra Options</label>
+        </div>
+       <div>
+        <label for="">Environment</label>
+    <input type="radio" id="Dummy" name="fav_air" value="Dummy">
+    <label for="">Dummy</label>
+    <input type="radio" id="PDT" name="fav_air" value="PDT">
+    <label for="">PDT</label>
+       </div> 
+    
+    <a href="#">SEARCH</a>
+    </div>
+    <hr class="mt-2 w-9/12 ml-36 ">
+  </main>
+ 
+</body>
+</html>
